@@ -1,11 +1,11 @@
 public class Main { //Cada línea de código que se ejecuta en Java debe estar dentro de un archivo class.
   //El nombre del archivo java debe coincidir con el nombre de la clase.
   //Al guardar el archivo, guárdelo con el nombre de la clase y agregue ".java"
-    public static void main(String[] args) {  //Todos los programas de java deben contener un main para correr el programa
-      System.out.println("Hellow world!!!");
+    public static void main(String[] args) {  //Todos los programas de java deben contener un main para correr el progra
+     System.out.println("Hellow world!!!");
       System.out.println("I am learning Java.");
       System.out.print("I will print on the same line."); //NO crea una nueva linea
-      System.out.println(3 + 3); //calculos matematicos
+      System.out.println(); //calculos matematicos
       
       //Variables
       //type variableName = value;
@@ -28,7 +28,7 @@ public class Main { //Cada línea de código que se ejecuta en Java debe estar d
       System.out.println(myVar3);
 
       //Convertir variables
-      double myDouble = 9.78d;
+      double myDouble = 9.78;
       int myInt = (int) myDouble;
       System.out.println(myInt);
 
