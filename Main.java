@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-public class Main { //Cada línea de código que se ejecuta en Java debe estar dentro de un archivo class.
-  //El nombre del archivo java debe coincidir con el nombre de la clase.
-  //Al guardar el archivo, guárdelo con el nombre de la clase y agregue ".java"
-    public static void main(String[] args) {  //Todos los programas de java deben contener un main para correr el progra
-     System.out.println("Hellow world!!!");
-      System.out.println("I am learning Java.");
-      System.out.print("I will print on the same line."); //NO crea una nueva linea
-      System.out.println(); //calculos matematicos
-      
-      //Variables
-      //type variableName = value;
-=======
 public class Main { // Cada línea de código que se ejecuta en Java debe estar dentro de un archivo
                     // class.
   // El nombre del archivo java debe coincidir con el nombre de la clase.
@@ -20,7 +7,6 @@ public class Main { // Cada línea de código que se ejecuta en Java debe estar 
     System.out.println("I am learning Java.");
     System.out.print("I will print on the same line."); // NO crea una nueva linea
     System.out.println(3 + 3); // calculos matematicos
->>>>>>> 16b8624844f4cff528a8a4953983119717161451
 
     // Variables
     // type variableName = value;
@@ -36,18 +22,11 @@ public class Main { // Cada línea de código que se ejecuta en Java debe estar 
     String fullName = firstName + lastName;
     System.out.println(fullName);
 
-<<<<<<< HEAD
-      //Convertir variables
-      double myDouble = 9.78;
-      int myInt = (int) myDouble;
-      System.out.println(myInt);
-=======
     // int x = 5, y = 6, z = 50; declarar variables en una sola linea
     char myVar1 = 65, myVar2 = 66, myVar3 = 67; // El char puede guardar el valor ASCII
     System.out.println(myVar1);
     System.out.println(myVar2);
     System.out.println(myVar3);
->>>>>>> 16b8624844f4cff528a8a4953983119717161451
 
     // Convertir variables
     double myDouble = 9.78d;
@@ -72,7 +51,7 @@ public class Main { // Cada línea de código que se ejecuta en Java debe estar 
     // Sentencia if
 
     if (20 > 18) {
-      System.out.println("20 is greater than 18");
+     System.out.println("20 is greater than 18");
     }
 
     int time = 22;
