@@ -51,7 +51,7 @@ public class Main { // Cada línea de código que se ejecuta en Java debe estar 
     // Sentencia if
 
     if (20 > 18) {
-      System.out.println("20 is greater than 18");
+     System.out.println("20 is greater than 18");
     }
 
     int time = 22;
