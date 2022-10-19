@@ -456,3 +456,118 @@ myfamily = {
   "child2" : child2,
   "child3" : child3
 }
+
+#Sentencia if
+a = 33
+b = 200
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+else:
+  print("a is greater than b")
+
+#Operador terniario
+if a > b: print("a is greater than b")
+
+#Operador terniario con else
+print("A") if a > b else print("B")
+
+#and or 
+c = 500
+if a > b and c > a:
+  print("Both conditions are True")
+
+#Se puede introducir pass por si el condicional esta vacio paraevitar errores
+
+#El ciclo while
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+
+#Declaracion de ruptura (brake)
+i = 1
+while i < 6:
+  print(i)
+  if i == 3:
+    break
+  i += 1
+
+# Con la instrucción continuar podemos detener la iteración actual y continuar con la siguiente:
+i = 0
+while i < 6:
+  i += 1
+  if i == 3:
+    continue
+  print(i)
+
+#Con la declaración else podemos ejecutar un bloque de código
+# una vez cuando la condición ya no sea verdadera:
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+else:
+  print("i is no longer less than 6")
+
+#Bucle para
+#  Esto se parece menos a la palabra clave for en otros lenguajes de programación
+#  y funciona más como un método iterador como se encuentra en otros lenguajes de
+#  programación orientados a objetos.
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+
+#Bucle a traves de una cadena
+for x in "banana":
+  print(x)
+
+#Con la instrucción break podemos detener el bucle antes de que haya recorrido todos los elementos:
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+  if x == "banana":
+    break
+
+#Tambien exite continue 
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    continue
+  print(x)
+
+#La función range() devuelve una secuencia de números, comenzando desde 0 
+# de forma predeterminada, se incrementa en 1 (de forma predeterminada) 
+# y termina en un número específico.
+for x in range(6):
+  print(x)
+
+#La función range() por defecto incrementa la secuencia en 1, sin embargo,
+#  es posible especificar el valor del incremento agregando un tercer parámetro: range(2, 30, 3 )
+
+#Bucles anidados
+adj = ["red", "big", "tasty"]
+fruits = ["apple", "banana", "cherry"]
+
+for x in adj:
+  for y in fruits:
+    print(x, y)
+
+#####
+#####Crear una función 
+# En Python, una función se define usando la palabra clave def :
+def my_function():
+  print("Hello from a function")
+
+#Llamar una funcion
+my_function()
+
+#Funcion con argumentos
+def my_function(fname):
+  print(fname + " Refsnes")
+
+my_function("Emil")
+my_function("Tobias")
+my_function("Linus")
